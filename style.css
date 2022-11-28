@@ -1,0 +1,62 @@
+/*----------------------------------------GENERELT----------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.header {
+  font-size: 3.5rem;
+  margin: 1rem;
+}
+
+body {
+  background-image: url(nicolas_billeder/waves.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#body_foto {
+  background-image: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: underline;
+}
+
+li {
+  margin-inline: 0.5rem;
+}
+
+img {
+  margin: 1.5rem;
+  width: 50%;
+  background-size: contain;
+  background-color: black;
+  padding: 2%;
+}
+
+#nio_billede {
+  align-self: flex-start;
+  width: 35%;
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
