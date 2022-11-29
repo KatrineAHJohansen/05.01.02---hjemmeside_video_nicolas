@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: sans-serif Arial Helvetica;
+  src: url();
+}
+
 header {
   display: flex;
   flex-direction: column;
@@ -17,6 +22,7 @@ header {
 a {
   text-decoration: underline;
   font-size: 1.2rem;
+  color: #efbdd7;
 }
 
 li {
@@ -85,6 +91,7 @@ img {
   width: 50%;
   margin-top: 1.5rem;
   gap: 0.3rem;
+  color: #efbdd7;
 }
 
 iframe {
